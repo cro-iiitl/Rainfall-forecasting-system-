@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UP Rainfall Predictor — 7-Day AI Forecast</title>
+  <meta name="description" content="AI-powered 7-day district-level rainfall prediction for Uttar Pradesh using XGBoost and live weather data from Open-Meteo." />
+
+  <link rel="stylesheet" href="/static/css/style.css" />
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<!-- Animated rain background -->
+<div class="rain-bg" id="rainBg"></div>
+
+<div class="wrapper">
+
+  <!-- ── Header ────────────────────────────── -->
+  <header>
+    <div class="logo-icon" aria-hidden="true"><i data-lucide="cloud-rain"></i></div>
+    <h1>UP Rainfall Predictor</h1>
+    <p class="subtitle">AI-powered 7-day district-level forecast for Uttar Pradesh&nbsp;&nbsp;·&nbsp;&nbsp;Powered by XGBoost + Open-Meteo</p>
+  </header>
+
+  <!-- ── Search panel ───────────────────────── -->
+  <section class="glass search-panel">
+    <h2>Select Location</h2>
+
+    <!-- District selector -->
+    <div class="field-row">
+      <div class="field" style="grid-column:1/-1">
+        <label for="districtSel">District</label>
+        <select id="districtSel">
+          <option value="">— Choose a UP district —</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="divider-or">OR enter coordinates</div>
+
+    <!-- Lat / Lon inputs -->
+    <div class="field-row">
+      <div class="field">
+        <label for="latInput">Latitude</label>
+        <input type="number" id="latInput" placeholder="e.g. 26.8467" step="0.0001" min="23" max="31" />
+      </div>
+      <div class="field">
+        <label for="lonInput">Longitude</label>
+        <input type="number" id="lonInput" placeholder="e.g. 80.9462" step="0.0001" min="77" max="85" />
+      </div>
+    </div>
+
+    <button class="btn-predict" id="predictBtn">
+      <i data-lucide="cloud-rain"></i>
+      <span>Generate Forecast</span>
+    </button>
+  </section>
+
+  <!-- ── Error ──────────────────────────────── -->
+  <div class="error-box" id="errorBox"></div>
+
+  <!-- ── Loader ─────────────────────────────── -->
+  <div class="loader-wrap" id="loaderWrap">
+    <div class="spinner"></div>
+    <p>Fetching live weather &amp; running AI models…<br/>This may take 15–30 seconds</p>
+  </div>
+
+  <!-- ── Results ────────────────────────────── -->
+  <section id="resultSection" class="hidden">
+
+    <!-- Location header -->
+    <div class="glass location-header">
+      <span class="loc-icon" aria-hidden="true"><i data-lucide="map-pin"></i></span>
+      <div>
+        <h3 id="locName">—</h3>
+        <p id="locCoords">—</p>
+      </div>
+      <div class="badge-group">
+        <span class="badge" id="modelBadge">Model</span>
+        <span class="badge badge-muted" id="sourceBadge">Source</span>
+      </div>
+    </div>
+
+    <!-- Stats row -->
+    <div class="stats-row">
+      <div class="stat-card glass">
+        <div class="stat-val" id="statTotal">—</div>
+        <div class="stat-label">Total 7-Day Rainfall</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-val" id="statPeak">—</div>
+        <div class="stat-label">Peak Day</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-val" id="statRainy">—</div>
+        <div class="stat-label">Rainy Days</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-val" id="statCloud">—</div>
+        <div class="stat-label">Avg Cloud Cover</div>
+      </div>
+    </div>
+
+    <!-- Forecast cards -->
+    <div class="cards-grid" id="cardsGrid"></div>
+
+    <!-- Bar chart -->
+    <div class="glass chart-wrap">
+      <h3><i data-lucide="bar-chart-3"></i> Daily Rainfall Forecast</h3>
+      <div class="chart-canvas-wrap">
+        <canvas id="rainfallChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Detail table -->
+    <div class="glass detail-wrap">
+      <h3><i data-lucide="table-2"></i> Detailed Forecast Table</h3>
+      <table id="detailTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Rainfall</th>
+            <th>Temp Range</th>
+            <th>Temp Mean</th>
+            <th>Cloud Cover</th>
+            <th>API Precip</th>
+            <th>Rain Prob</th>
+            <th>Intensity</th>
+            <th>Model Reasoning (Why ML ≠ API)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- ── Footer ─────────────────────────────── -->
+  <footer>
+    <p>Data sourced from <a href="https://open-meteo.com" target="_blank">Open-Meteo</a> &nbsp;·&nbsp; Models trained on UP historical ERA5 data &nbsp;·&nbsp; For research use only</p>
+  </footer>
+
+</div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
