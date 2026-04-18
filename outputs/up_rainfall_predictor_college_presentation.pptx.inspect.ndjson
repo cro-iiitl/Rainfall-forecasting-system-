@@ -1,0 +1,367 @@
+{"kind":"deck","id":"pr/zfb0xr","name":"Deck"}
+{"kind":"layout","layoutId":"2184f4a2-c97d-4e2a-9593-60e449d5b45c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ba7c5d84-93fe-418e-9aa5-6f153e3a1cff","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/8m352a","slide":1,"title":"UP Rainfall","textShapes":11}
+{"kind":"shape","id":"sh/4vmtwra5","slide":1,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/bat47y1k","slide":1,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":1,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":1,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/47y1kre1","slide":1,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/bm58z25k","slide":1,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":1,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/twra5gbq","slide":1,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/4byhgn29","slide":1,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/m58z25kb","slide":1,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/bq1oryts","slide":1,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/4byhgn29","slide":1,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/twra5gbq","slide":1,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":1,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":1,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/4nap4r65","slide":1,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/t83itgfm","slide":1,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":1,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/bat47y1k","slide":1,"bbox":[1256,64,0,34]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":1,"bbox":[730,0,550,720]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":1,"text":"UP Rainfall\nPredictor","textPreview":"UP Rainfall | Predictor","textChars":21,"textLines":2,"bbox":[70,116,610,180]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":1,"text":"AI-powered 7-day district-level rainfall forecasting for Uttar Pradesh","textPreview":"AI-powered 7-day district-level rainfall forecasting for Uttar Pradesh","textChars":70,"textLines":1,"bbox":[70,318,590,72]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":1,"text":"College project presentation","textPreview":"College project presentation","textChars":28,"textLines":1,"bbox":[70,430,440,36]}
+{"kind":"shape","id":"sh/32lszqtc","slide":1,"bbox":[790,116,330,136]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":1,"text":"75","textPreview":"75","textChars":2,"textLines":1,"bbox":[810,134,290,50]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":1,"text":"UP districts covered","textPreview":"UP districts covered","textChars":20,"textLines":1,"bbox":[810,190,290,52]}
+{"kind":"shape","id":"sh/sneloj2t","slide":1,"bbox":[790,286,330,136]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":1,"text":"7 days","textPreview":"7 days","textChars":6,"textLines":1,"bbox":[810,304,290,50]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":1,"text":"Forecast horizon","textPreview":"Forecast horizon","textChars":16,"textLines":1,"bbox":[810,360,290,52]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":1,"bbox":[790,456,330,136]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":1,"text":"XGBoost","textPreview":"XGBoost","textChars":7,"textLines":1,"bbox":[810,474,290,50]}
+{"kind":"textbox","id":"sh/61032lsz","slide":1,"text":"Model family","textPreview":"Model family","textChars":12,"textLines":1,"bbox":[810,530,290,52]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":1,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/8m352a","slide":1,"text":""}
+{"kind":"slide","id":"sl/vzsj7h","slide":2,"title":"PROBLEM STATEMENT","textShapes":10}
+{"kind":"shape","id":"sh/4byhgn29","slide":2,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/bq1oryts","slide":2,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/m58z25kb","slide":2,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/t83itgfm","slide":2,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/4nap4r65","slide":2,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":2,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":2,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":2,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":2,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":2,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":2,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":2,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":2,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":2,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":2,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":2,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/p4r65wju","slide":2,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":2,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":2,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":2,"text":"PROBLEM STATEMENT","textPreview":"PROBLEM STATEMENT","textChars":17,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":2,"text":"Why This Project Matters","textPreview":"Why This Project Matters","textChars":24,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":2,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":2,"bbox":[90,213,12,12]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":2,"text":"Rainfall in Uttar Pradesh is spatially uneven and can change sharply across districts.","textPreview":"Rainfall in Uttar Pradesh is spatially uneven and can change sharply across districts.","textChars":86,"textLines":1,"bbox":[118,205,622,66]}
+{"kind":"shape","id":"sh/ulwval87","slide":2,"bbox":[90,283,12,12]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":2,"text":"Farm planning, water management, travel, and local administration depend on early rainfall signals.","textPreview":"Farm planning, water management, travel, and local administration depend on early rainfall signals.","textChars":99,"textLines":1,"bbox":[118,275,622,66]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":2,"bbox":[90,353,12,12]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":2,"text":"A district-level tool helps convert complex weather data into a usable 7-day forecast.","textPreview":"A district-level tool helps convert complex weather data into a usable 7-day forecast.","textChars":86,"textLines":1,"bbox":[118,345,622,66]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":2,"bbox":[90,423,12,12]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":2,"text":"The project demonstrates how machine learning can support weather-risk awareness.","textPreview":"The project demonstrates how machine learning can support weather-risk awareness.","textChars":81,"textLines":1,"bbox":[118,415,622,66]}
+{"kind":"shape","id":"sh/twra5gbq","slide":2,"bbox":[820,198,310,310]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":2,"text":"Goal","textPreview":"Goal","textChars":4,"textLines":1,"bbox":[850,232,250,38]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":2,"text":"Predict daily rainfall amount, rain probability, and intensity for a selected UP district or coordinate.","textPreview":"Predict daily rainfall amount, rain probability, and intensity for a selected UP district or coordinate.","textChars":104,"textLines":1,"bbox":[850,292,250,150]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":2,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/vzsj7h","slide":2,"text":""}
+{"kind":"slide","id":"sl/c1vwey","slide":3,"title":"EVIDENCE BASE","textShapes":16}
+{"kind":"shape","id":"sh/lszqtcj6","slide":3,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":3,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/3m94fu18","slide":3,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/sji5snel","slide":3,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":3,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/adsji5sn","slide":3,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":3,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/svu9knih","slide":3,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":3,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":3,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":3,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/bat47y1k","slide":3,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":3,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":3,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/47y1kre1","slide":3,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/bm58z25k","slide":3,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":3,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/twra5gbq","slide":3,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/4byhgn29","slide":3,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":3,"text":"EVIDENCE BASE","textPreview":"EVIDENCE BASE","textChars":13,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":3,"text":"Data Collection","textPreview":"Data Collection","textChars":15,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/idonyd0z","slide":3,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/byhgn29g","slide":3,"bbox":[74,196,250,128]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":3,"text":"383,550","textPreview":"383,550","textChars":7,"textLines":1,"bbox":[94,214,210,50]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":3,"text":"Historical records","textPreview":"Historical records","textChars":18,"textLines":1,"bbox":[94,270,210,52]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":3,"bbox":[348,196,250,128]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":3,"text":"75 districts","textPreview":"75 districts","textChars":12,"textLines":1,"bbox":[368,214,210,50]}
+{"kind":"textbox","id":"sh/032lszqt","slide":3,"text":"District coverage","textPreview":"District coverage","textChars":17,"textLines":1,"bbox":[368,270,210,52]}
+{"kind":"shape","id":"sh/tovahoza","slide":3,"bbox":[622,196,250,128]}
+{"kind":"textbox","id":"sh/z61032ls","slide":3,"text":"2011-2025","textPreview":"2011-2025","textChars":9,"textLines":1,"bbox":[642,214,210,50]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":3,"text":"Historical span","textPreview":"Historical span","textChars":15,"textLines":1,"bbox":[642,270,210,52]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":3,"bbox":[896,196,250,128]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"2 years","textPreview":"2 years","textChars":7,"textLines":1,"bbox":[916,214,210,50]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":3,"text":"CRO data reference","textPreview":"CRO data reference","textChars":18,"textLines":1,"bbox":[916,270,210,52]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":3,"bbox":[110,398,12,12]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":3,"text":"Processed district-wise weather dataset with latitude and longitude.","textPreview":"Processed district-wise weather dataset with latitude and longitude.","textChars":68,"textLines":1,"bbox":[138,390,962,46]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":3,"bbox":[110,448,12,12]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":3,"text":"ERA5-style atmospheric variables: pressure, cloud cover, wind, temperature, dew point and moisture flux.","textPreview":"ERA5-style atmospheric variables: pressure, cloud cover, wind, temperature, dew point and moisture flux.","textChars":104,"textLines":1,"bbox":[138,440,962,46]}
+{"kind":"shape","id":"sh/65wjudg7","slide":3,"bbox":[110,498,12,12]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":3,"text":"Live 7-day forecast inputs from Open-Meteo for current weather conditions.","textPreview":"Live 7-day forecast inputs from Open-Meteo for current weather conditions.","textChars":74,"textLines":1,"bbox":[138,490,962,46]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":3,"bbox":[110,548,12,12]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":3,"text":"Two years of CRO data included in the data collection narrative as local rainfall reference support.","textPreview":"Two years of CRO data included in the data collection narrative as local rainfall reference support.","textChars":100,"textLines":1,"bbox":[138,540,962,46]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":3,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/c1vwey","slide":3,"text":""}
+{"kind":"slide","id":"sl/jfrok4","slide":4,"title":"FROM DATA TO FORECAST","textShapes":15}
+{"kind":"shape","id":"sh/ed8v6psf","slide":4,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/p4r65wju","slide":4,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":4,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":4,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":4,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":4,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":4,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":4,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":4,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/cvixczed","slide":4,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":4,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":4,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/nap4r65w","slide":4,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/cj6tovah","slide":4,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/54zidony","slide":4,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/udg7adsj","slide":4,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/nyd0z610","slide":4,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":4,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/1032lszq","slide":4,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":4,"text":"FROM DATA TO FORECAST","textPreview":"FROM DATA TO FORECAST","textChars":21,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/cbulwval","slide":4,"text":"System Pipeline","textPreview":"System Pipeline","textChars":15,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":4,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/u54zidon","slide":4,"bbox":[234,314,62,28]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":4,"bbox":[454,314,62,28]}
+{"kind":"shape","id":"sh/czed8v6p","slide":4,"bbox":[674,314,62,28]}
+{"kind":"shape","id":"sh/neloj2t8","slide":4,"bbox":[894,314,62,28]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":4,"bbox":[80,270,155,142]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":4,"text":"Collect","textPreview":"Collect","textChars":7,"textLines":1,"bbox":[94,294,126,34]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":4,"text":"Historical + CRO + live API","textPreview":"Historical + CRO + live API","textChars":27,"textLines":1,"bbox":[94,340,126,56]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":4,"bbox":[300,270,155,142]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":4,"text":"Clean","textPreview":"Clean","textChars":5,"textLines":1,"bbox":[314,294,126,34]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":4,"text":"Units, missing rows, clipping","textPreview":"Units, missing rows, clipping","textChars":29,"textLines":1,"bbox":[314,340,126,56]}
+{"kind":"shape","id":"sh/xczed8v6","slide":4,"bbox":[520,270,155,142]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":4,"text":"Engineer","textPreview":"Engineer","textChars":8,"textLines":1,"bbox":[534,294,126,34]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":4,"text":"Lag, rolling, monsoon features","textPreview":"Lag, rolling, monsoon features","textChars":30,"textLines":1,"bbox":[534,340,126,56]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":4,"bbox":[740,270,155,142]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":4,"text":"Predict","textPreview":"Predict","textChars":7,"textLines":1,"bbox":[754,294,126,34]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":4,"text":"Classifier + 7 XGBoost models","textPreview":"Classifier + 7 XGBoost models","textChars":29,"textLines":1,"bbox":[754,340,126,56]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":4,"bbox":[960,270,155,142]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":4,"text":"Display","textPreview":"Display","textChars":7,"textLines":1,"bbox":[974,294,126,34]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":4,"text":"Flask API + web dashboard","textPreview":"Flask API + web dashboard","textChars":25,"textLines":1,"bbox":[974,340,126,56]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":4,"text":"The pipeline is designed so historical learning and live weather inputs meet at prediction time.","textPreview":"The pipeline is designed so historical learning and live weather inputs meet at prediction time.","textChars":96,"textLines":1,"bbox":[158,500,920,54]}
+{"kind":"textbox","id":"sh/obm58z25","slide":4,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/jfrok4","slide":4,"text":""}
+{"kind":"slide","id":"sl/j9nvjp","slide":5,"title":"WHAT THE MODEL LEARNS FROM","textShapes":16}
+{"kind":"shape","id":"sh/vu9knih4","slide":5,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":5,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/d0z61032","slide":5,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":5,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/v6psfil0","slide":5,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/knih4byh","slide":5,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/d8bat47y","slide":5,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/6psfil0r","slide":5,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/val87ed8","slide":5,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/judg7ads","slide":5,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/u9knih4b","slide":5,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/1032lszq","slide":5,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":5,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":5,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":5,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/1orytsvu","slide":5,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/c7u54zid","slide":5,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/nap4r65w","slide":5,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":5,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":5,"text":"WHAT THE MODEL LEARNS FROM","textPreview":"WHAT THE MODEL LEARNS FROM","textChars":26,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/val87ed8","slide":5,"text":"Feature Engineering","textPreview":"Feature Engineering","textChars":19,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":5,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/dcbulwva","slide":5,"bbox":[90,210,46,46]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":5,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,218,46,30]}
+{"kind":"textbox","id":"sh/vixczed8","slide":5,"text":"Atmospheric features","textPreview":"Atmospheric features","textChars":20,"textLines":1,"bbox":[152,208,428,32]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":5,"text":"Surface pressure, total cloud cover, temperature, dew point, wind and low cloud cover.","textPreview":"Surface pressure, total cloud cover, temperature, dew point, wind and low cloud cover.","textChars":86,"textLines":1,"bbox":[152,244,428,54]}
+{"kind":"shape","id":"sh/donyd0z6","slide":5,"bbox":[90,340,46,46]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,348,46,30]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":5,"text":"Rainfall memory","textPreview":"Rainfall memory","textChars":15,"textLines":1,"bbox":[152,338,428,32]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":5,"text":"Lag features for previous 1, 2, 3 and 7 days plus rolling 3-day and 7-day rainfall.","textPreview":"Lag features for previous 1, 2, 3 and 7 days plus rolling 3-day and 7-day rainfall.","textChars":83,"textLines":1,"bbox":[152,374,428,54]}
+{"kind":"shape","id":"sh/s72x4nap","slide":5,"bbox":[90,470,46,46]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":5,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,478,46,30]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":5,"text":"Seasonal context","textPreview":"Seasonal context","textChars":16,"textLines":1,"bbox":[152,468,428,32]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"text":"Month sine/cosine encoding and monsoon flag help capture seasonal rainfall behavior.","textPreview":"Month sine/cosine encoding and monsoon flag help capture seasonal rainfall behavior.","textChars":84,"textLines":1,"bbox":[152,504,428,54]}
+{"kind":"shape","id":"sh/sji5snel","slide":5,"bbox":[690,205,405,350]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"text":"Final model inputs","textPreview":"Final model inputs","textChars":18,"textLines":1,"bbox":[725,236,340,38]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":5,"text":"22 engineered\nfeatures","textPreview":"22 engineered | features","textChars":22,"textLines":2,"bbox":[725,304,340,96]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":5,"text":"covering weather state, district identity, rainfall history and seasonal timing.","textPreview":"covering weather state, district identity, rainfall history and seasonal timing.","textChars":80,"textLines":1,"bbox":[725,424,330,84]}
+{"kind":"textbox","id":"sh/svu9knih","slide":5,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/j9nvjp","slide":5,"text":""}
+{"kind":"slide","id":"sl/ljnisg","slide":6,"title":"MACHINE LEARNING DESIGN","textShapes":14}
+{"kind":"shape","id":"sh/9w3m94fu","slide":6,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":6,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":6,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":6,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/9knih4by","slide":6,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/2t83itgf","slide":6,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":6,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/gvy90je9","slide":6,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":6,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/dg7adsji","slide":6,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/ovahoza1","slide":6,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/vahoza1g","slide":6,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/6tovahoz","slide":6,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":6,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":6,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":6,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":6,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/oj2t83it","slide":6,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":6,"text":"MACHINE LEARNING DESIGN","textPreview":"MACHINE LEARNING DESIGN","textChars":23,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":6,"text":"Modeling Approach","textPreview":"Modeling Approach","textChars":17,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":6,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":6,"bbox":[82,205,300,136]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":6,"text":"89.7%","textPreview":"89.7%","textChars":5,"textLines":1,"bbox":[102,223,260,50]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":6,"text":"Rain / no-rain classifier","textPreview":"Rain / no-rain classifier","textChars":25,"textLines":1,"bbox":[102,279,260,52]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":6,"bbox":[420,205,300,136]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":6,"text":"7.38 mm","textPreview":"7.38 mm","textChars":7,"textLines":1,"bbox":[440,223,260,50]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":6,"text":"Average MAE","textPreview":"Average MAE","textChars":11,"textLines":1,"bbox":[440,279,260,52]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":6,"bbox":[758,205,300,136]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":6,"text":"0.60","textPreview":"0.60","textChars":4,"textLines":1,"bbox":[778,223,260,50]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":6,"text":"R² score","textPreview":"R² score","textChars":8,"textLines":1,"bbox":[778,279,260,52]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":6,"bbox":[110,413,12,12]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":6,"text":"XGBoost classifier estimates rainfall occurrence probability.","textPreview":"XGBoost classifier estimates rainfall occurrence probability.","textChars":61,"textLines":1,"bbox":[138,405,952,42]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":6,"bbox":[110,459,12,12]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":6,"text":"Seven saved XGBoost regressors generate day-wise rainfall values for the 7-day horizon.","textPreview":"Seven saved XGBoost regressors generate day-wise rainfall values for the 7-day horizon.","textChars":87,"textLines":1,"bbox":[138,451,952,42]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":6,"bbox":[110,505,12,12]}
+{"kind":"textbox","id":"sh/sji5snel","slide":6,"text":"Training uses records up to 2022; validation/testing uses later years in the saved metadata.","textPreview":"Training uses records up to 2022; validation/testing uses later years in the saved metadata.","textChars":92,"textLines":1,"bbox":[138,497,952,42]}
+{"kind":"shape","id":"sh/za1gvy90","slide":6,"bbox":[110,551,12,12]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":6,"text":"Output is rounded into rainfall amount, probability and intensity labels for user readability.","textPreview":"Output is rounded into rainfall amount, probability and intensity labels for user readability.","textChars":94,"textLines":1,"bbox":[138,543,952,42]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":6,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/ljnisg","slide":6,"text":""}
+{"kind":"slide","id":"sl/q1y83e","slide":7,"title":"FRONTEND DEMONSTRATION","textShapes":11}
+{"kind":"shape","id":"sh/rytsvu9k","slide":7,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":7,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/90je9cvi","slide":7,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":7,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":7,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/g7adsji5","slide":7,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":7,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/yxobm58z","slide":7,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/nih4byhg","slide":7,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":7,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":7,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":7,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":7,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":7,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":7,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":7,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/0z61032l","slide":7,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":7,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":7,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":7,"text":"FRONTEND DEMONSTRATION","textPreview":"FRONTEND DEMONSTRATION","textChars":22,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":7,"text":"Application Output","textPreview":"Application Output","textChars":18,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":7,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":7,"bbox":[925,205,235,330]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":7,"text":"Dashboard shows","textPreview":"Dashboard shows","textChars":15,"textLines":1,"bbox":[950,236,185,36]}
+{"kind":"shape","id":"sh/83itgfml","slide":7,"bbox":[950,310,12,12]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":7,"text":"Daily rainfall","textPreview":"Daily rainfall","textChars":14,"textLines":1,"bbox":[978,302,152,30]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":7,"bbox":[950,344,12,12]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":7,"text":"Temperature range","textPreview":"Temperature range","textChars":17,"textLines":1,"bbox":[978,336,152,30]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":7,"bbox":[950,378,12,12]}
+{"kind":"textbox","id":"sh/cvixczed","slide":7,"text":"Cloud cover","textPreview":"Cloud cover","textChars":11,"textLines":1,"bbox":[978,370,152,30]}
+{"kind":"shape","id":"sh/nap4r65w","slide":7,"bbox":[950,412,12,12]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":7,"text":"API precipitation","textPreview":"API precipitation","textChars":17,"textLines":1,"bbox":[978,404,152,30]}
+{"kind":"shape","id":"sh/54zidony","slide":7,"bbox":[950,446,12,12]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":7,"text":"Rain probability","textPreview":"Rain probability","textChars":16,"textLines":1,"bbox":[978,438,152,30]}
+{"kind":"shape","id":"sh/nyd0z610","slide":7,"bbox":[950,480,12,12]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"Intensity class","textPreview":"Intensity class","textChars":15,"textLines":1,"bbox":[978,472,152,30]}
+{"kind":"textbox","id":"sh/1032lszq","slide":7,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"image","id":"im/m94fu18j","slide":7,"name":"","geometry":"rect","alt":"UP Rainfall Predictor forecast table screenshot","bbox":[82,200,800,360]}
+{"kind":"notes","id":"nt/q1y83e","slide":7,"text":""}
+{"kind":"slide","id":"sl/1h4pqp","slide":8,"title":"WHAT OFFICIALS SHOULD SEE","textShapes":11}
+{"kind":"shape","id":"sh/yd0z6103","slide":8,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/90je9cvi","slide":8,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":8,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":8,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":8,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":8,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/g7adsji5","slide":8,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/nih4byhg","slide":8,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/yxobm58z","slide":8,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/obm58z25","slide":8,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":8,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/65wjudg7","slide":8,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":8,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":8,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":8,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":8,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":8,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/orytsvu9","slide":8,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":8,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":8,"text":"WHAT OFFICIALS SHOULD SEE","textPreview":"WHAT OFFICIALS SHOULD SEE","textChars":25,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/cvixczed","slide":8,"text":"How to Interpret the Forecast","textPreview":"How to Interpret the Forecast","textChars":29,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/nap4r65w","slide":8,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":8,"bbox":[88,215,330,315]}
+{"kind":"textbox","id":"sh/54zidony","slide":8,"text":"Rainfall","textPreview":"Rainfall","textChars":8,"textLines":1,"bbox":[120,250,260,36]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":8,"text":"Model-predicted rainfall amount in millimeters, based on learned patterns and current weather inputs.","textPreview":"Model-predicted rainfall amount in millimeters, based on learned patterns and current weather inputs.","textChars":101,"textLines":1,"bbox":[120,310,260,140]}
+{"kind":"shape","id":"sh/nyd0z610","slide":8,"bbox":[475,215,330,315]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":8,"text":"API Precip","textPreview":"API Precip","textChars":10,"textLines":1,"bbox":[507,250,260,36]}
+{"kind":"textbox","id":"sh/1032lszq","slide":8,"text":"Raw precipitation forecast from Open-Meteo, useful as a live weather baseline.","textPreview":"Raw precipitation forecast from Open-Meteo, useful as a live weather baseline.","textChars":78,"textLines":1,"bbox":[507,310,260,140]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":8,"bbox":[862,215,330,315]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":8,"text":"Rain Prob","textPreview":"Rain Prob","textChars":9,"textLines":1,"bbox":[894,250,260,36]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":8,"text":"Classifier confidence that rain will occur, helping users interpret low rainfall values.","textPreview":"Classifier confidence that rain will occur, helping users interpret low rainfall values.","textChars":88,"textLines":1,"bbox":[894,310,260,140]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":8,"text":"Together these values give amount, source comparison and likelihood, not just a single number.","textPreview":"Together these values give amount, source comparison and likelihood, not just a single number.","textChars":94,"textLines":1,"bbox":[160,585,960,36]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":8,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/1h4pqp","slide":8,"text":""}
+{"kind":"slide","id":"sl/4obpgb","slide":9,"title":"HONEST EVALUATION","textShapes":10}
+{"kind":"shape","id":"sh/knih4byh","slide":9,"bbox":[0,0,1280,18]}
+{"kind":"shape","id":"sh/v6psfil0","slide":9,"bbox":[32,28,0,34]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":9,"bbox":[104,46,0,34]}
+{"kind":"shape","id":"sh/d0z61032","slide":9,"bbox":[176,64,0,34]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":9,"bbox":[248,28,0,34]}
+{"kind":"shape","id":"sh/vu9knih4","slide":9,"bbox":[320,46,0,34]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":9,"bbox":[392,64,0,34]}
+{"kind":"shape","id":"sh/donyd0z6","slide":9,"bbox":[464,28,0,34]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":9,"bbox":[536,46,0,34]}
+{"kind":"shape","id":"sh/at47y1kr","slide":9,"bbox":[608,64,0,34]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":9,"bbox":[680,28,0,34]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":9,"bbox":[752,46,0,34]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":9,"bbox":[824,64,0,34]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":9,"bbox":[896,28,0,34]}
+{"kind":"shape","id":"sh/32lszqtc","slide":9,"bbox":[968,46,0,34]}
+{"kind":"shape","id":"sh/sneloj2t","slide":9,"bbox":[1040,64,0,34]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":9,"bbox":[1112,28,0,34]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":9,"bbox":[1184,46,0,34]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":9,"bbox":[1256,64,0,34]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":9,"text":"HONEST EVALUATION","textPreview":"HONEST EVALUATION","textChars":17,"textLines":1,"bbox":[70,38,540,28]}
+{"kind":"textbox","id":"sh/61032lsz","slide":9,"text":"Limitations and Future Improvements","textPreview":"Limitations and Future Improvements","textChars":35,"textLines":1,"bbox":[70,72,900,72]}
+{"kind":"shape","id":"sh/dsji5sne","slide":9,"bbox":[70,154,1140,1]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":9,"bbox":[100,218,12,12]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":9,"text":"Use IMD observed rainfall as the primary target data for stronger India-specific accuracy.","textPreview":"Use IMD observed rainfall as the primary target data for stronger India-specific accuracy.","textChars":90,"textLines":1,"bbox":[128,210,632,68]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":9,"bbox":[100,290,12,12]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":9,"text":"Aggregate weather over district polygons instead of relying on one center latitude/longitude point.","textPreview":"Aggregate weather over district polygons instead of relying on one center latitude/longitude point.","textChars":99,"textLines":1,"bbox":[128,282,632,68]}
+{"kind":"shape","id":"sh/oj2t83it","slide":9,"bbox":[100,362,12,12]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":9,"text":"Add API precipitation as a direct model feature and learn bias correction against local observations.","textPreview":"Add API precipitation as a direct model feature and learn bias correction against local observations.","textChars":101,"textLines":1,"bbox":[128,354,632,68]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":9,"bbox":[100,434,12,12]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":9,"text":"Expand validation with station-level data, CRO records and seasonal district-wise error analysis.","textPreview":"Expand validation with station-level data, CRO records and seasonal district-wise error analysis.","textChars":97,"textLines":1,"bbox":[128,426,632,68]}
+{"kind":"shape","id":"sh/90je9cvi","slide":9,"bbox":[820,215,320,330]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":9,"text":"Next target","textPreview":"Next target","textChars":11,"textLines":1,"bbox":[852,254,250,30]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":9,"text":"Move from prototype forecasting to locally validated district rainfall intelligence.","textPreview":"Move from prototype forecasting to locally validated district rainfall intelligence.","textChars":84,"textLines":1,"bbox":[852,315,244,170]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":9,"text":"UP Rainfall Predictor","textPreview":"UP Rainfall Predictor","textChars":21,"textLines":1,"bbox":[70,676,300,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,674,50,24]}
+{"kind":"notes","id":"nt/4obpgb","slide":9,"text":""}
